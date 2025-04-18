@@ -1,0 +1,36 @@
+.disclaimer {
+  background-color: #fff3cd;
+  border: 1px solid #ffeeba;
+  border-radius: 4px;
+  padding: 1rem;
+  margin: 1rem 0;
+  text-align: left;
+}
+
+.disclaimer h2 {
+  color: #856404;
+  font-size: 1.2rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.disclaimer p {
+  color: #856404;
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+@media (max-width: 480px) {
+  .disclaimer {
+    padding: 0.75rem;
+  }
+  
+  .disclaimer h2 {
+    font-size: 1rem;
+  }
+  
+  .disclaimer p {
+    font-size: 0.8rem;
+  }
+}

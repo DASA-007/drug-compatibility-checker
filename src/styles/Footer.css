@@ -1,0 +1,22 @@
+.footer {
+  margin-top: 2rem;
+  padding: 1rem 0;
+  border-top: 1px solid #e0e0e0;
+  color: #7f8c8d;
+  font-size: 0.9rem;
+}
+
+.version {
+  margin-top: 0.25rem;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 480px) {
+  .footer {
+    font-size: 0.8rem;
+  }
+  
+  .version {
+    font-size: 0.7rem;
+  }
+}

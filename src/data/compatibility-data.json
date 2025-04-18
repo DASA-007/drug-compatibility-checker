@@ -1,0 +1,214 @@
+{
+  "drugs": [
+    {
+      "name": "morphine",
+      "aliases": ["morphine sulfate", "morphine sulphate"]
+    },
+    {
+      "name": "hydromorphone",
+      "aliases": ["hydromorphone hydrochloride", "dilaudid"]
+    },
+    {
+      "name": "fentanyl",
+      "aliases": ["fentanyl citrate"]
+    },
+    {
+      "name": "methadone",
+      "aliases": ["methadone hydrochloride"]
+    },
+    {
+      "name": "midazolam",
+      "aliases": ["midazolam hydrochloride"]
+    },
+    {
+      "name": "clonazepam",
+      "aliases": ["klonopin"]
+    },
+    {
+      "name": "haloperidol",
+      "aliases": ["haloperidol lactate", "haldol"]
+    },
+    {
+      "name": "cyclizine",
+      "aliases": ["cyclizine hydrochloride", "cyclizine lactate"]
+    },
+    {
+      "name": "hyoscine butylbromide",
+      "aliases": ["buscopan", "scopolamine butylbromide"]
+    },
+    {
+      "name": "glycopyrrolate",
+      "aliases": ["glycopyrronium bromide"]
+    }
+  ],
+  "combinations": [
+    {
+      "drugs": ["morphine", "midazolam"],
+      "diluent": "NS",
+      "compatible": true,
+      "notes": "Compatible at standard concentrations"
+    },
+    {
+      "drugs": ["morphine", "midazolam"],
+      "diluent": "WFI",
+      "compatible": true,
+      "notes": "Compatible at standard concentrations"
+    },
+    {
+      "drugs": ["morphine", "haloperidol"],
+      "diluent": "NS",
+      "compatible": false,
+      "notes": "Precipitation may occur"
+    },
+    {
+      "drugs": ["morphine", "haloperidol"],
+      "diluent": "WFI",
+      "compatible": false,
+      "notes": "Precipitation may occur"
+    },
+    {
+      "drugs": ["morphine", "cyclizine"],
+      "diluent": "NS",
+      "compatible": false,
+      "notes": "Precipitation likely to occur"
+    },
+    {
+      "drugs": ["morphine", "cyclizine"],
+      "diluent": "WFI",
+      "compatible": false,
+      "notes": "Precipitation likely to occur"
+    },
+    {
+      "drugs": ["morphine", "hyoscine butylbromide"],
+      "diluent": "NS",
+      "compatible": true,
+      "notes": "Compatible at standard concentrations"
+    },
+    {
+      "drugs": ["morphine", "hyoscine butylbromide"],
+      "diluent": "WFI",
+      "compatible": true,
+      "notes": "Compatible at standard concentrations"
+    },
+    {
+      "drugs": ["morphine", "glycopyrrolate"],
+      "diluent": "NS",
+      "compatible": true,
+      "notes": "Compatible at standard concentrations"
+    },
+    {
+      "drugs": ["morphine", "glycopyrrolate"],
+      "diluent": "WFI",
+      "compatible": true,
+      "notes": "Compatible at standard concentrations"
+    },
+    {
+      "drugs": ["hydromorphone", "midazolam"],
+      "diluent": "NS",
+      "compatible": true,
+      "notes": "Compatible at standard concentrations"
+    },
+    {
+      "drugs": ["hydromorphone", "midazolam"],
+      "diluent": "WFI",
+      "compatible": true,
+      "notes": "Compatible at standard concentrations"
+    },
+    {
+      "drugs": ["hydromorphone", "haloperidol"],
+      "diluent": "NS",
+      "compatible": true,
+      "notes": "Compatible at standard concentrations"
+    },
+    {
+      "drugs": ["hydromorphone", "haloperidol"],
+      "diluent": "WFI",
+      "compatible": true,
+      "notes": "Compatible at standard concentrations"
+    },
+    {
+      "drugs": ["fentanyl", "midazolam"],
+      "diluent": "NS",
+      "compatible": true,
+      "notes": "Compatible at standard concentrations"
+    },
+    {
+      "drugs": ["fentanyl", "midazolam"],
+      "diluent": "WFI",
+      "compatible": true,
+      "notes": "Compatible at standard concentrations"
+    },
+    {
+      "drugs": ["fentanyl", "haloperidol"],
+      "diluent": "NS",
+      "compatible": true,
+      "notes": "Compatible at standard concentrations"
+    },
+    {
+      "drugs": ["fentanyl", "haloperidol"],
+      "diluent": "WFI",
+      "compatible": true,
+      "notes": "Compatible at standard concentrations"
+    },
+    {
+      "drugs": ["midazolam", "haloperidol"],
+      "diluent": "NS",
+      "compatible": true,
+      "notes": "Compatible at standard concentrations"
+    },
+    {
+      "drugs": ["midazolam", "haloperidol"],
+      "diluent": "WFI",
+      "compatible": true,
+      "notes": "Compatible at standard concentrations"
+    },
+    {
+      "drugs": ["midazolam", "hyoscine butylbromide"],
+      "diluent": "NS",
+      "compatible": true,
+      "notes": "Compatible at standard concentrations"
+    },
+    {
+      "drugs": ["midazolam", "hyoscine butylbromide"],
+      "diluent": "WFI",
+      "compatible": true,
+      "notes": "Compatible at standard concentrations"
+    },
+    {
+      "drugs": ["morphine", "midazolam", "haloperidol"],
+      "diluent": "NS",
+      "compatible": false,
+      "notes": "Precipitation may occur due to morphine-haloperidol incompatibility"
+    },
+    {
+      "drugs": ["morphine", "midazolam", "haloperidol"],
+      "diluent": "WFI",
+      "compatible": false,
+      "notes": "Precipitation may occur due to morphine-haloperidol incompatibility"
+    },
+    {
+      "drugs": ["morphine", "midazolam", "hyoscine butylbromide"],
+      "diluent": "NS",
+      "compatible": true,
+      "notes": "Compatible at standard concentrations"
+    },
+    {
+      "drugs": ["morphine", "midazolam", "hyoscine butylbromide"],
+      "diluent": "WFI",
+      "compatible": true,
+      "notes": "Compatible at standard concentrations"
+    },
+    {
+      "drugs": ["fentanyl", "midazolam", "haloperidol"],
+      "diluent": "NS",
+      "compatible": true,
+      "notes": "Compatible at standard concentrations"
+    },
+    {
+      "drugs": ["fentanyl", "midazolam", "haloperidol"],
+      "diluent": "WFI",
+      "compatible": true,
+      "notes": "Compatible at standard concentrations"
+    }
+  ]
+}

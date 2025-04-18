@@ -1,0 +1,78 @@
+.compatibility-results {
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.compatibility-results.compatible {
+  background-color: #e8f5e9;
+  border: 1px solid #a5d6a7;
+}
+
+.compatibility-results.incompatible {
+  background-color: #ffebee;
+  border: 1px solid #ef9a9a;
+}
+
+.compatibility-results h2 {
+  font-size: 1.2rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.result-icon {
+  font-size: 3rem;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.compatible .result-icon {
+  color: #4caf50;
+}
+
+.incompatible .result-icon {
+  color: #f44336;
+}
+
+.result-status {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.compatible .result-status {
+  color: #2e7d32;
+}
+
+.incompatible .result-status {
+  color: #c62828;
+}
+
+.result-message {
+  margin-bottom: 0.5rem;
+}
+
+.result-notes {
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 480px) {
+  .compatibility-results {
+    padding: 1rem;
+  }
+  
+  .compatibility-results h2 {
+    font-size: 1.1rem;
+  }
+  
+  .result-icon {
+    font-size: 2.5rem;
+  }
+  
+  .result-status {
+    font-size: 1.3rem;
+  }
+}
